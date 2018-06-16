@@ -28,7 +28,7 @@ export class EchoServer {
         },
         devMode: false,
         host: null,
-        port: 6001,
+        port: process.env.PORT || 6001,
         protocol: "http",
         socketio: {},
         sslCertPath: '',
